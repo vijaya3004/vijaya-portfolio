@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 export function Cursor() {
+  if (typeof window === "undefined") return null;
   const [pos, setPos] = useState({ x: -100, y: -100 });
   const [ringPos, setRingPos] = useState({ x: -100, y: -100 });
   const [hover, setHover] = useState(false);

@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 
 export function ParticleField() {
+  if (typeof window === "undefined") return null;
   const ref = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
