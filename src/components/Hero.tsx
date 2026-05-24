@@ -48,8 +48,8 @@ export function Hero() {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="mb-6 text-6xl font-black leading-none tracking-tighter md:text-[10rem]"
         >
-          <span className="block text-gradient">VIJAYA</span>
-          <span className="block text-glow text-foreground">.S<span className="text-[oklch(0.75_0.25_240)]">_</span></span>
+          <span className="text-gradient">VIJAYA</span>
+<span className="text-glow text-foreground">.S<span className="text-[oklch(0.75_0.25_240)]">_</span></span>
         </motion.h1>
 
         <div className="mx-auto mb-10 flex h-8 items-center justify-center gap-3 text-sm md:text-base">
